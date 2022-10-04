@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="/style.css">
+
+<body>
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img id="menu-icon" src="images/menu.png" alt="">
+            <img id="logo"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy7KH6aYU8GXDf1t4TISe7DbRL3gV5pXOpmPG75Aoldk4_1lOm0jcYz0ALT4ZS_BUaJ_8&usqp=CAU"
+                alt="">
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box">
+                <input type="text" id="query" placeholder="Search">
+                <button onclick="searchVideos()"><img id="search-icon" src="images/search.png"></button>
+            </div>
+
+            <img src="images/voice-search.png" alt="" class="mic-icon">
+        </div>
+        <div class="nav-right flex-div">
+            <img src="images/upload.png" alt="">
+            <img src="images/more.png" alt="">
+            <img src="images/notification.png" alt="">
+            <img id="myphoto" src="images/rohit.JPG" alt="">
+        </div>
+    </nav>
+
+    <!-- sidebar  -->
+
+    <div class="sidebar">
+        <div class="shortcut-link">
+            <a href=""> <img src="images/home.png" alt="" srcset="">
+                <p>Home</p>
+            </a>
+            <a href=""> <img src="images/explore.png" alt="" srcset="">
+                <p>Explore</p>
+            </a>
+            <a href=""> <img src="images/subscriprion.png" alt="" srcset="">
+                <p>Subscriprion</p>
+            </a>
+            <a href=""> <img src="images/library.png" alt="" srcset="">
+                <p>Library</p>
+            </a>
+            <a href=""> <img src="images/history.png" alt="" srcset="">
+                <p>History</p>
+            </a>
+            <a href=""> <img src="images/playlist.png" alt="" srcset="">
+                <p>Playlist</p>
+            </a>
+            <a href=""> <img src="images/messages.png" alt="" srcset="">
+                <p>Message</p>
+            </a>
+            <a href=""> <img src="images/show-more.png" alt="" srcset="">
+                <p>Show More</p>
+            </a>
+
+            <hr>
+        </div>
+
+        <!-- subscribed list  -->
+        <div class="subscribed">
+            <h3>SUBSCRIBED</h3>
+            <a href=""><img src="images/Jack.png">
+                <p>Mohit verma</p>
+            </a>
+            <a href=""><img src="images/simon.png">
+                <p>p.v.k.Johnson</p>
+            </a>
+            <a href=""><img src="images/tom.png">
+                <p>Sourabh shrivas</p>
+            </a>
+            <a href=""><img src="images/megan.png">
+                <p>vicky warkade</p>
+            </a>
+            <a href=""><img src="images/cameron.png">
+                <p>Prashant singh</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- showing videos now  -->
+
+
+    <div id="container">
+        <div class="banner">
+            <img src="/images/banner.png">
+        </div>
+        <div id="show_videos">
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+<script src="/script.js"></script>
